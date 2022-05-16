@@ -1,0 +1,124 @@
+.colored {
+    width: 250px;
+    height: 750px;
+}
+.window #one{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-60deg);
+    transform-origin: bottom;
+}
+.window #two{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-30deg);
+    transform-origin: bottom;
+}
+.window #three{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(0deg);
+    transform-origin: bottom;
+}
+.window #four{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(30deg);
+    transform-origin: bottom;
+}
+.window #five{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(60deg);
+    transform-origin: bottom;
+}
+
+.window {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#ten{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.coloredTest {
+    width: 250px;
+    height: 750px;
+}
+
+.animation1{
+    width: 250px;
+    height: 750px;
+    animation-name: anim1;
+    animation-duration: 5s;
+
+}
+.animation2{
+    width: 250px;
+    height: 750px;
+    animation-name: anim2;
+    animation-duration: 5s;
+
+}
+.animation3{
+    width: 250px;
+    height: 750px;
+    animation-name: anim3;
+    animation-duration: 5s;
+
+}
+.animation4{
+    width: 250px;
+    height: 750px;
+    animation-name: anim4;
+    animation-duration: 5s;
+
+}
+.animation5{
+    width: 250px;
+    height: 750px;
+    animation-name: anim5;
+    animation-duration: 5s;
+
+}
+
+@keyframes anim1{
+    from{ transform:translate(-50%,-50%) rotate(0deg);}
+    to{transform: translate(-50%,-50%) rotate(-60deg)}
+}
+@keyframes anim2{
+    from{ transform:translate(-50%,-50%) rotate(0deg);}
+    to{transform: translate(-50%,-50%) rotate(-30deg);}
+}
+@keyframes anim3{
+    from{ transform:translate(-50%,-50%) rotate(0deg);}
+    to{transform:translate(-50%,-50%) rotate(0deg);}
+}
+@keyframes anim4{
+    from{ transform:translate(-50%,-50%) rotate(0deg);}
+    to{transform: translate(-50%,-50%) rotate(30deg);}
+}
+@keyframes anim5{
+    from{ transform:translate(-50%,-50%) rotate(0deg);}
+    to{transform: translate(-50%,-50%) rotate(60deg);}
+}
+
+.animation{
+    width: 250px;
+    height: 750px;
+    animation-name: rotate10;
+    animation-duration: 5s;
+}
+@keyframes rotate10{
+    from{ transform:translate(-50%,-50%) rotate(0deg);}
+    to{transform:translate(-50%,-50%) rotate(360deg);}
+}
